@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace ExamDotnet.Models
 {
-    class Product
+    public class Product
     {
         [Key]
         public string Code { get; set; }
